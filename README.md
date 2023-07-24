@@ -14,6 +14,8 @@ yarn add mkenum
 
 ```typescript
 import makeEnum, {type IEnum} from 'mkenum'
+// or
+const makeEnum = require('mkenum')
 
 const Env = makeEnum('a', 'b', 'c') // type {a: 'a', b: 'b', c: 'c'}
 const a = Env.a // type 'a'
