@@ -1,11 +1,13 @@
 {
 	"name": "mkenum",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Make enum in javascript",
 	"main": "index.js",
 	"files": [
 		"index.d.ts",
-		"index.mjs"
+		"index.mjs",
+		"index.js",
+		"index.d.mts"
 	],
 	"exports": {
 		".": {
